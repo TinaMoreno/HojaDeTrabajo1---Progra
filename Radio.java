@@ -1,9 +1,20 @@
+//********************
+// UNIVERSIDAD DEL VALLE DE GUATEMALA
+// Departamento de Ciencias De La Computacion
+// CC2016 - 20
+// Autores: Alvaro Jose Leon Aguilar
+//          Valentina Moreno Moreno
+//          Milton Giovanni Polanco Serrano 
+//			Isabella Recinos RodrÃ­guez
+// Fecha: Enero 23 2024
+// Descripcion: Hoja de trabajo 1 - Radio
+//********************
 public class Radio implements IRadio {
     private boolean state;
     private float frequency;
     private boolean isAM;
-    private float[] amFrequencyRange = {530.0f, 1700.0f};
-    private float[] fmFrequencyRange = {88.0f, 108.0f};
+    private float[] amFrequencyRange = { 530.0f, 1700.0f };
+    private float[] fmFrequencyRange = { 88.0f, 108.0f };
     private float[] favFrequencies = new float[12];
 
     @Override
